@@ -1,0 +1,294 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/user/Documents/Carro Script/saf/saucedemo-playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "always"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/user/Documents/Carro Script/saf/saucedemo-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "C:/Users/user/Documents/Carro Script/saf/saucedemo-playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "RemoveItem_DescriptionPage.spec.ts",
+      "file": "RemoveItem_DescriptionPage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Remove item from cart for user: standard_user, item: sauce-labs-backpack, title: Sauce Labs Backpack",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 31490,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts",
+                        "column": 21,
+                        "line": 17
+                      },
+                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//button[contains(@id, \"add-to-cart-sauce-labs-backpack\")]')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36masync\u001b[39m clickAddToCart(itemName\u001b[33m:\u001b[39m string) {\n \u001b[90m 16 |\u001b[39m     \u001b[36mconst\u001b[39m addButtonSelector \u001b[33m=\u001b[39m \u001b[32m`//button[contains(@id, \"add-to-cart-${itemName}\")]`\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(addButtonSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m   }\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     \u001b[36masync\u001b[39m clickRemove(itemName\u001b[33m:\u001b[39m string) {\u001b[0m\n\u001b[2m    at ProductPage.clickAddToCart (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:17:21)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\RemoveItem_DescriptionPage.spec.ts:17:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-02T18:59:54.020Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-91ab3-k-title-Sauce-Labs-Backpack-Google-Chrome\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-91ab3-k-title-Sauce-Labs-Backpack-Google-Chrome\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-91ab3-k-title-Sauce-Labs-Backpack-Google-Chrome\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-91ab3-k-title-Sauce-Labs-Backpack-Google-Chrome\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d739fa23960b43d7c91b-396c37f54795167f005f",
+          "file": "RemoveItem_DescriptionPage.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "Remove item from cart for user: problem_user, item: sauce-labs-backpack, title: Sauce Labs Backpack",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 17918,
+                  "error": {
+                    "message": "Error: page.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//button[contains(@id, \"add-to-cart-sauce-labs-backpack\")]')\u001b[22m\n",
+                    "stack": "Error: page.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//button[contains(@id, \"add-to-cart-sauce-labs-backpack\")]')\u001b[22m\n\n    at ProductPage.clickAddToCart (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:17:21)\n    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\RemoveItem_DescriptionPage.spec.ts:17:23",
+                    "location": {
+                      "file": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts",
+                      "column": 21,
+                      "line": 17
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36masync\u001b[39m clickAddToCart(itemName\u001b[33m:\u001b[39m string) {\n \u001b[90m 16 |\u001b[39m     \u001b[36mconst\u001b[39m addButtonSelector \u001b[33m=\u001b[39m \u001b[32m`//button[contains(@id, \"add-to-cart-${itemName}\")]`\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(addButtonSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m   }\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     \u001b[36masync\u001b[39m clickRemove(itemName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts",
+                        "column": 21,
+                        "line": 17
+                      },
+                      "message": "Error: page.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//button[contains(@id, \"add-to-cart-sauce-labs-backpack\")]')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36masync\u001b[39m clickAddToCart(itemName\u001b[33m:\u001b[39m string) {\n \u001b[90m 16 |\u001b[39m     \u001b[36mconst\u001b[39m addButtonSelector \u001b[33m=\u001b[39m \u001b[32m`//button[contains(@id, \"add-to-cart-${itemName}\")]`\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(addButtonSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m   }\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     \u001b[36masync\u001b[39m clickRemove(itemName\u001b[33m:\u001b[39m string) {\u001b[0m\n\u001b[2m    at ProductPage.clickAddToCart (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:17:21)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\RemoveItem_DescriptionPage.spec.ts:17:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-02T19:00:28.203Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-c10e3-k-title-Sauce-Labs-Backpack-Google-Chrome\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-c10e3-k-title-Sauce-Labs-Backpack-Google-Chrome\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts",
+                    "column": 21,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d739fa23960b43d7c91b-ad1fa0aa1ff42f4f6038",
+          "file": "RemoveItem_DescriptionPage.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "Remove item from cart for user: visual_user, item: sauce-labs-bike-light, title: Sauce Labs Bike Light",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3916,
+                  "error": {
+                    "message": "Error: page.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//button[contains(@id, \"add-to-cart-sauce-labs-bike-light\")]')\u001b[22m\n",
+                    "stack": "Error: page.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//button[contains(@id, \"add-to-cart-sauce-labs-bike-light\")]')\u001b[22m\n\n    at ProductPage.clickAddToCart (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:17:21)\n    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\RemoveItem_DescriptionPage.spec.ts:17:23",
+                    "location": {
+                      "file": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts",
+                      "column": 21,
+                      "line": 17
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36masync\u001b[39m clickAddToCart(itemName\u001b[33m:\u001b[39m string) {\n \u001b[90m 16 |\u001b[39m     \u001b[36mconst\u001b[39m addButtonSelector \u001b[33m=\u001b[39m \u001b[32m`//button[contains(@id, \"add-to-cart-${itemName}\")]`\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(addButtonSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m   }\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     \u001b[36masync\u001b[39m clickRemove(itemName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts",
+                        "column": 21,
+                        "line": 17
+                      },
+                      "message": "Error: page.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//button[contains(@id, \"add-to-cart-sauce-labs-bike-light\")]')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36masync\u001b[39m clickAddToCart(itemName\u001b[33m:\u001b[39m string) {\n \u001b[90m 16 |\u001b[39m     \u001b[36mconst\u001b[39m addButtonSelector \u001b[33m=\u001b[39m \u001b[32m`//button[contains(@id, \"add-to-cart-${itemName}\")]`\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(addButtonSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m   }\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     \u001b[36masync\u001b[39m clickRemove(itemName\u001b[33m:\u001b[39m string) {\u001b[0m\n\u001b[2m    at ProductPage.clickAddToCart (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:17:21)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\RemoveItem_DescriptionPage.spec.ts:17:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-02T19:00:48.360Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-aa9d2-title-Sauce-Labs-Bike-Light-Google-Chrome\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-aa9d2-title-Sauce-Labs-Bike-Light-Google-Chrome\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts",
+                    "column": 21,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d739fa23960b43d7c91b-b60a19d3c9334974fb54",
+          "file": "RemoveItem_DescriptionPage.spec.ts",
+          "line": 9,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-02T18:59:52.216Z",
+    "duration": 60717.551,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}
