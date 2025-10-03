@@ -1,0 +1,539 @@
+<testsuites id="" name="" tests="32" failures="7" skipped="0" errors="0" time="111.73300499999999">
+<testsuite name="AddItem_ToCart_ContinueShopping.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="3" failures="0" skipped="0" time="9.27" errors="0">
+<testcase name="Add item to cart for user: standard_user - item: sauce-labs-backpack" classname="AddItem_ToCart_ContinueShopping.spec.ts" time="3.834">
+</testcase>
+<testcase name="Add item to cart for user: problem_user - item: sauce-labs-backpack" classname="AddItem_ToCart_ContinueShopping.spec.ts" time="3.506">
+</testcase>
+<testcase name="Add item to cart for user: visual_user - item: sauce-labs-bike-light" classname="AddItem_ToCart_ContinueShopping.spec.ts" time="1.93">
+</testcase>
+</testsuite>
+<testsuite name="AddItem_ToCart_ResetApp.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="3" failures="0" skipped="0" time="11.974" errors="0">
+<testcase name="Add item to cart for user: standard_user - item: sauce-labs-backpack" classname="AddItem_ToCart_ResetApp.spec.ts" time="5.561">
+</testcase>
+<testcase name="Add item to cart for user: problem_user - item: sauce-labs-backpack" classname="AddItem_ToCart_ResetApp.spec.ts" time="3.28">
+</testcase>
+<testcase name="Add item to cart for user: visual_user - item: sauce-labs-bike-light" classname="AddItem_ToCart_ResetApp.spec.ts" time="3.133">
+</testcase>
+</testsuite>
+<testsuite name="AddItem_ToCart.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="3" failures="0" skipped="0" time="7.657" errors="0">
+<testcase name="Add item to cart for user: standard_user - item: sauce-labs-backpack" classname="AddItem_ToCart.spec.ts" time="3.556">
+</testcase>
+<testcase name="Add item to cart for user: problem_user - item: sauce-labs-backpack" classname="AddItem_ToCart.spec.ts" time="1.886">
+</testcase>
+<testcase name="Add item to cart for user: visual_user - item: sauce-labs-bike-light" classname="AddItem_ToCart.spec.ts" time="2.215">
+</testcase>
+</testsuite>
+<testsuite name="Checkout_WithItem.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="3" failures="1" skipped="0" time="52.948" errors="0">
+<testcase name="Checkout flow with item for user: standard_user - item: sauce-labs-backpack" classname="Checkout_WithItem.spec.ts" time="11.297">
+</testcase>
+<testcase name="Checkout flow with item for user: problem_user - item: sauce-labs-backpack" classname="Checkout_WithItem.spec.ts" time="32.655">
+<failure message="Checkout_WithItem.spec.ts:10:7 Checkout flow with item for user: problem_user - item: sauce-labs-backpack" type="FAILURE">
+<![CDATA[  [Google Chrome] › Checkout_WithItem.spec.ts:10:7 › Checkout flow with item for user: problem_user - item: sauce-labs-backpack 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('//div[@data-test="payment-info-value"]')
+    Expected: visible
+    Received: <element(s) not found>
+
+    Call log:
+      - Expect "toBeVisible" with timeout 70000ms
+      - waiting for locator('//div[@data-test="payment-info-value"]')
+
+
+       at ..\pages\CheckoutPage.ts:35
+
+      33 |
+      34 |     async assertPaymentInfo() {
+    > 35 |         await expect(this.page.locator('//div[@data-test="payment-info-value"]')).toBeVisible({timeout: 70000});
+         |                                                                                   ^
+      36 |     }
+      37 |
+      38 |     async clickClose() {
+        at CheckoutPage.assertPaymentInfo (C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\pages\CheckoutPage.ts:35:83)
+        at C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\tests\Checkout_WithItem.spec.ts:32:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|..\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Checkout flow with item for user: visual_user - item: sauce-labs-bike-light" classname="Checkout_WithItem.spec.ts" time="8.996">
+</testcase>
+</testsuite>
+<testsuite name="Checkout_WithoutItem.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="3" failures="1" skipped="0" time="51.004" errors="0">
+<testcase name="Checkout flow with item for user: standard_user}" classname="Checkout_WithoutItem.spec.ts" time="9.998">
+</testcase>
+<testcase name="Checkout flow with item for user: problem_user}" classname="Checkout_WithoutItem.spec.ts" time="32.484">
+<failure message="Checkout_WithoutItem.spec.ts:10:7 Checkout flow with item for user: problem_user}" type="FAILURE">
+<![CDATA[  [Google Chrome] › Checkout_WithoutItem.spec.ts:10:7 › Checkout flow with item for user: problem_user} 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('//div[@data-test="payment-info-value"]')
+    Expected: visible
+    Received: <element(s) not found>
+
+    Call log:
+      - Expect "toBeVisible" with timeout 70000ms
+      - waiting for locator('//div[@data-test="payment-info-value"]')
+
+
+       at ..\pages\CheckoutPage.ts:35
+
+      33 |
+      34 |     async assertPaymentInfo() {
+    > 35 |         await expect(this.page.locator('//div[@data-test="payment-info-value"]')).toBeVisible({timeout: 70000});
+         |                                                                                   ^
+      36 |     }
+      37 |
+      38 |     async clickClose() {
+        at CheckoutPage.assertPaymentInfo (C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\pages\CheckoutPage.ts:35:83)
+        at C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\tests\Checkout_WithoutItem.spec.ts:30:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|..\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Checkout flow with item for user: visual_user}" classname="Checkout_WithoutItem.spec.ts" time="8.522">
+</testcase>
+</testsuite>
+<testsuite name="Homepage_Filter.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="3" failures="3" skipped="0" time="92.016" errors="0">
+<testcase name="Add item to cart for user: standard_user" classname="Homepage_Filter.spec.ts" time="30.693">
+<failure message="Homepage_Filter.spec.ts:9:7 Add item to cart for user: standard_user" type="FAILURE">
+<![CDATA[  [Google Chrome] › Homepage_Filter.spec.ts:9:7 › Add item to cart for user: standard_user ─────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('//span[@class="active_option"]')
+        - locator resolved to <span class="active_option" data-test="active-option">Name (A to Z)</span>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        52 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+       at ..\pages\ProductPage.ts:31
+
+      29 |
+      30 |     async clickFilterIcon() {
+    > 31 |         await this.page.click('//span[@class="active_option"]');
+         |                         ^
+      32 |     }
+      33 |
+      34 |     async clickFilterNameAsc() {
+        at ProductPage.clickFilterIcon (C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\pages\ProductPage.ts:31:25)
+        at C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\tests\Homepage_Filter.spec.ts:16:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Add item to cart for user: problem_user" classname="Homepage_Filter.spec.ts" time="30.775">
+<failure message="Homepage_Filter.spec.ts:9:7 Add item to cart for user: problem_user" type="FAILURE">
+<![CDATA[  [Google Chrome] › Homepage_Filter.spec.ts:9:7 › Add item to cart for user: problem_user ──────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('//span[@class="active_option"]')
+        - locator resolved to <span class="active_option" data-test="active-option">Name (A to Z)</span>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        55 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+       at ..\pages\ProductPage.ts:31
+
+      29 |
+      30 |     async clickFilterIcon() {
+    > 31 |         await this.page.click('//span[@class="active_option"]');
+         |                         ^
+      32 |     }
+      33 |
+      34 |     async clickFilterNameAsc() {
+        at ProductPage.clickFilterIcon (C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\pages\ProductPage.ts:31:25)
+        at C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\tests\Homepage_Filter.spec.ts:16:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Add item to cart for user: visual_user" classname="Homepage_Filter.spec.ts" time="30.548">
+<failure message="Homepage_Filter.spec.ts:9:7 Add item to cart for user: visual_user" type="FAILURE">
+<![CDATA[  [Google Chrome] › Homepage_Filter.spec.ts:9:7 › Add item to cart for user: visual_user ───────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('//span[@class="active_option"]')
+        - locator resolved to <span class="active_option" data-test="active-option">Name (A to Z)</span>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        55 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <select class="product_sort_container" data-test="product-sort-container">…</select> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+       at ..\pages\ProductPage.ts:31
+
+      29 |
+      30 |     async clickFilterIcon() {
+    > 31 |         await this.page.click('//span[@class="active_option"]');
+         |                         ^
+      32 |     }
+      33 |
+      34 |     async clickFilterNameAsc() {
+        at ProductPage.clickFilterIcon (C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\pages\ProductPage.ts:31:25)
+        at C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\tests\Homepage_Filter.spec.ts:16:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|..\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Login.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="4" failures="0" skipped="0" time="7.739" errors="0">
+<testcase name="Login attempt with user: standard_user" classname="Login.spec.ts" time="2.498">
+</testcase>
+<testcase name="Login attempt with user: problem_user" classname="Login.spec.ts" time="1.312">
+</testcase>
+<testcase name="Login attempt with user: locked_out_user" classname="Login.spec.ts" time="1.53">
+</testcase>
+<testcase name="Login attempt with user: visual_user" classname="Login.spec.ts" time="2.399">
+</testcase>
+</testsuite>
+<testsuite name="Logout.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="4" failures="0" skipped="0" time="8.347" errors="0">
+<testcase name="Logout flow for user: standard_user" classname="Logout.spec.ts" time="2.379">
+</testcase>
+<testcase name="Logout flow for user: problem_user" classname="Logout.spec.ts" time="2.12">
+</testcase>
+<testcase name="Logout flow for user: locked_out_user" classname="Logout.spec.ts" time="0.995">
+<system-out>
+<![CDATA[Skipping logout for invalid user: locked_out_user
+]]>
+</system-out>
+</testcase>
+<testcase name="Logout flow for user: visual_user" classname="Logout.spec.ts" time="2.853">
+</testcase>
+</testsuite>
+<testsuite name="RemoveItem_DescriptionPage.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="3" failures="1" skipped="0" time="36.915" errors="0">
+<testcase name="Remove item from cart for user: standard_user, title: Sauce Labs Backpack" classname="RemoveItem_DescriptionPage.spec.ts" time="1.28">
+</testcase>
+<testcase name="Remove item from cart for user: problem_user, title: Sauce Labs Backpack" classname="RemoveItem_DescriptionPage.spec.ts" time="33.147">
+<failure message="RemoveItem_DescriptionPage.spec.ts:9:7 Remove item from cart for user: problem_user, title: Sauce Labs Backpack" type="FAILURE">
+<![CDATA[  [Google Chrome] › RemoveItem_DescriptionPage.spec.ts:9:7 › Remove item from cart for user: problem_user, title: Sauce Labs Backpack 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('//button[@id="remove"]')
+
+
+       at ..\pages\ProductPage.ts:55
+
+      53 |
+      54 |     async clickRemoveDetails() {
+    > 55 |         await this.page.click('//button[@id="remove"]');
+         |                         ^
+      56 |     }
+      57 |
+      58 |     async assertCartBadge() {
+        at ProductPage.clickRemoveDetails (C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\pages\ProductPage.ts:55:25)
+        at C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\tests\RemoveItem_DescriptionPage.spec.ts:19:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|..\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Remove item from cart for user: visual_user, title: Sauce Labs Bike Light" classname="RemoveItem_DescriptionPage.spec.ts" time="2.488">
+</testcase>
+</testsuite>
+<testsuite name="RemoveItem.spec.ts" timestamp="2025-10-03T10:02:22.003Z" hostname="Google Chrome" tests="3" failures="1" skipped="0" time="11.879" errors="0">
+<testcase name="Remove item from cart for user: standard_user - item: sauce-labs-backpack" classname="RemoveItem.spec.ts" time="2.114">
+</testcase>
+<testcase name="Remove item from cart for user: problem_user - item: sauce-labs-backpack" classname="RemoveItem.spec.ts" time="7.993">
+<failure message="RemoveItem.spec.ts:9:7 Remove item from cart for user: problem_user - item: sauce-labs-backpack" type="FAILURE">
+<![CDATA[  [Google Chrome] › RemoveItem.spec.ts:9:7 › Remove item from cart for user: problem_user - item: sauce-labs-backpack 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('//span[@class="shopping_cart_badge"]')
+    Expected: 0
+    Received: 1
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" with timeout 5000ms
+      - waiting for locator('//span[@class="shopping_cart_badge"]')
+        9 × locator resolved to 1 element
+          - unexpected value "1"
+
+
+      19 |
+      20 |     const cartBadge = page.locator('//span[@class="shopping_cart_badge"]');
+    > 21 |     await expect(cartBadge).toHaveCount(0);
+         |                             ^
+      22 |
+      23 |     await productPage.clickCart();
+      24 |     await expect(page.locator('//div[text()="Sauce Labs Bike Light"]')).toHaveCount(0);
+        at C:\Users\user\Documents\Carro Script\saf\saucedemo-playwright\tests\RemoveItem.spec.ts:21:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|..\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Remove item from cart for user: visual_user - item: sauce-labs-bike-light" classname="RemoveItem.spec.ts" time="1.772">
+</testcase>
+</testsuite>
+</testsuites>
