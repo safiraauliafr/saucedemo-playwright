@@ -16,6 +16,7 @@ export default defineConfig({
     trace: 'retain-on-failure',
     channel: 'chrome',
   },
+  workers: process.env.CI ? 2 : undefined,
   projects: [
     {
       name: 'Google Chrome',
@@ -25,6 +26,7 @@ export default defineConfig({
   reporter: [
     ['list'], // console output
     ['html', { outputFolder: 'playwright-report', open: 'always' }], // HTML report
-    ['json', { outputFile: 'playwright-report/report.json' }] // JSON report
+    ['json', { outputFile: 'playwright-report/report.json' }], // JSON report
+    ['junit', { outputFile: 'test-results/junit/results.xml' }] 
   ],
 });
