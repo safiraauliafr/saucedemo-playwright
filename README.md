@@ -36,3 +36,13 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 npm install
 npx playwright install
+
+## 🛠️ Running Tests Locally (Backup Plan)
+
+In case the CI/CD pipeline does not run successfully on GitHub Actions, you can execute the tests locally by following these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/saucedemo-playwright.git
+   cd saucedemo-playwright
+
