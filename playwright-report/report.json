@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -23,7 +23,7 @@
         "html",
         {
           "outputFolder": "playwright-report",
-          "open": "always"
+          "open": "never"
         }
       ],
       [
@@ -50,10 +50,10 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 2
         },
-        "id": "Google Chrome",
-        "name": "Google Chrome",
+        "id": "",
+        "name": "",
         "testDir": "C:/Users/user/Documents/Carro Script/saf/saucedemo-playwright/tests",
         "testIgnore": [],
         "testMatch": [
@@ -66,7 +66,7 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.55.1",
-    "workers": 4,
+    "workers": 2,
     "webServer": null
   },
   "suites": [
@@ -85,19 +85,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3834,
+                  "duration": 6350,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:24.224Z",
+                  "startTime": "2026-01-29T23:17:31.204Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -105,7 +105,7 @@
               "status": "expected"
             }
           ],
-          "id": "9293d17c2c9ec2a093e4-c2fe64be1d8981c04b10",
+          "id": "9293d17c2c9ec2a093e4-a4593ddcfd9c43023b13",
           "file": "AddItem_ToCart_ContinueShopping.spec.ts",
           "line": 10,
           "column": 7
@@ -119,19 +119,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3506,
+                  "duration": 2489,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:28.812Z",
+                  "startTime": "2026-01-29T23:17:40.127Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -139,7 +139,7 @@
               "status": "expected"
             }
           ],
-          "id": "9293d17c2c9ec2a093e4-cd2b4a3b3261473cfecf",
+          "id": "9293d17c2c9ec2a093e4-dc17bc73ac135eb8fc22",
           "file": "AddItem_ToCart_ContinueShopping.spec.ts",
           "line": 10,
           "column": 7
@@ -153,19 +153,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1930,
+                  "duration": 2264,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:32.382Z",
+                  "startTime": "2026-01-29T23:17:42.661Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -173,7 +173,7 @@
               "status": "expected"
             }
           ],
-          "id": "9293d17c2c9ec2a093e4-e167ab83640712c05f9c",
+          "id": "9293d17c2c9ec2a093e4-687da20de33b4434120c",
           "file": "AddItem_ToCart_ContinueShopping.spec.ts",
           "line": 10,
           "column": 7
@@ -195,19 +195,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 5561,
+                  "duration": 7145,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:24.097Z",
+                  "startTime": "2026-01-29T23:17:31.170Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -215,7 +215,7 @@
               "status": "expected"
             }
           ],
-          "id": "98a6fe982d97d50d8b77-166e748a7ade40f65be2",
+          "id": "98a6fe982d97d50d8b77-34c0d1ab12e0988503df",
           "file": "AddItem_ToCart_ResetApp.spec.ts",
           "line": 10,
           "column": 7
@@ -229,19 +229,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3280,
+                  "duration": 3159,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:30.453Z",
+                  "startTime": "2026-01-29T23:17:40.877Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -249,7 +249,7 @@
               "status": "expected"
             }
           ],
-          "id": "98a6fe982d97d50d8b77-b163e376502952b4de77",
+          "id": "98a6fe982d97d50d8b77-92c609a7ed4465a98e7e",
           "file": "AddItem_ToCart_ResetApp.spec.ts",
           "line": 10,
           "column": 7
@@ -263,19 +263,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3133,
+                  "duration": 3125,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:33.779Z",
+                  "startTime": "2026-01-29T23:17:44.065Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -283,7 +283,7 @@
               "status": "expected"
             }
           ],
-          "id": "98a6fe982d97d50d8b77-f38dbf686af9f53c75cd",
+          "id": "98a6fe982d97d50d8b77-cfac1b6fb4e107213cd5",
           "file": "AddItem_ToCart_ResetApp.spec.ts",
           "line": 10,
           "column": 7
@@ -305,19 +305,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3556,
+                  "duration": 2077,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:24.109Z",
+                  "startTime": "2026-01-29T23:17:44.988Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -325,7 +325,7 @@
               "status": "expected"
             }
           ],
-          "id": "bb6e9c55226895635677-e922f8ba0dff2d151700",
+          "id": "bb6e9c55226895635677-017b75753cd8a51be065",
           "file": "AddItem_ToCart.spec.ts",
           "line": 9,
           "column": 7
@@ -339,19 +339,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1886,
+                  "duration": 2268,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:28.440Z",
+                  "startTime": "2026-01-29T23:17:47.104Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -359,7 +359,7 @@
               "status": "expected"
             }
           ],
-          "id": "bb6e9c55226895635677-8f10979ee09c56661425",
+          "id": "bb6e9c55226895635677-99b0e920a569d1f8da56",
           "file": "AddItem_ToCart.spec.ts",
           "line": 9,
           "column": 7
@@ -373,19 +373,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2215,
+                  "duration": 2152,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:30.379Z",
+                  "startTime": "2026-01-29T23:17:49.408Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -393,7 +393,7 @@
               "status": "expected"
             }
           ],
-          "id": "bb6e9c55226895635677-d2e0eb4fdb640d217e93",
+          "id": "bb6e9c55226895635677-ee45e6f219fb2ea7e0c7",
           "file": "AddItem_ToCart.spec.ts",
           "line": 9,
           "column": 7
@@ -415,19 +415,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 11297,
+                  "duration": 8911,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:24.115Z",
+                  "startTime": "2026-01-29T23:17:47.257Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -435,7 +435,7 @@
               "status": "expected"
             }
           ],
-          "id": "16b00a8acca8d1bec4d8-57fd55b56197e428eb39",
+          "id": "16b00a8acca8d1bec4d8-33f7136b6287c270c274",
           "file": "Checkout_WithItem.spec.ts",
           "line": 10,
           "column": 7
@@ -449,14 +449,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "timedOut",
-                  "duration": 32655,
+                  "duration": 32716,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -477,28 +477,28 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:36.182Z",
+                  "startTime": "2026-01-29T23:17:56.201Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\\test-failed-1.png"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\\video.webm"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack\\video.webm"
                     },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\\error-context.md"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack\\error-context.md"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack-Google-Chrome\\trace.zip"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithItem-Checkout-b9ca3----item-sauce-labs-backpack\\trace.zip"
                     }
                   ]
                 }
@@ -506,7 +506,7 @@
               "status": "unexpected"
             }
           ],
-          "id": "16b00a8acca8d1bec4d8-30b9852218a17d7cdcf6",
+          "id": "16b00a8acca8d1bec4d8-8cd3656fd9cba90aff01",
           "file": "Checkout_WithItem.spec.ts",
           "line": 10,
           "column": 7
@@ -520,19 +520,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 5,
-                  "parallelIndex": 3,
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 8996,
+                  "duration": 8914,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:03:11.097Z",
+                  "startTime": "2026-01-29T23:18:31.734Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -540,7 +540,7 @@
               "status": "expected"
             }
           ],
-          "id": "16b00a8acca8d1bec4d8-b1d758fb030aaff5fa1f",
+          "id": "16b00a8acca8d1bec4d8-79be5204392f8b188b21",
           "file": "Checkout_WithItem.spec.ts",
           "line": 10,
           "column": 7
@@ -562,19 +562,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 9998,
+                  "duration": 8515,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:32.700Z",
+                  "startTime": "2026-01-29T23:17:51.654Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -582,7 +582,7 @@
               "status": "expected"
             }
           ],
-          "id": "c70c9bd6805f5b8305d5-4f84bcbe88e72cfb4264",
+          "id": "c70c9bd6805f5b8305d5-c4c9d8de4bcafb01c497",
           "file": "Checkout_WithoutItem.spec.ts",
           "line": 10,
           "column": 7
@@ -596,14 +596,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "timedOut",
-                  "duration": 32484,
+                  "duration": 33049,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -624,28 +624,28 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:42.753Z",
+                  "startTime": "2026-01-29T23:18:00.205Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\\test-failed-1.png"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user-\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\\video.webm"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user-\\video.webm"
                     },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\\error-context.md"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user-\\error-context.md"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user--Google-Chrome\\trace.zip"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Checkout_WithoutItem-Check-90cb1-item-for-user-problem-user-\\trace.zip"
                     }
                   ]
                 }
@@ -653,7 +653,7 @@
               "status": "unexpected"
             }
           ],
-          "id": "c70c9bd6805f5b8305d5-693111897e8f0e712f68",
+          "id": "c70c9bd6805f5b8305d5-704a985a6c02db9cb3e4",
           "file": "Checkout_WithoutItem.spec.ts",
           "line": 10,
           "column": 7
@@ -667,19 +667,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 6,
-                  "parallelIndex": 2,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 8522,
+                  "duration": 8708,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:03:17.566Z",
+                  "startTime": "2026-01-29T23:18:36.073Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -687,7 +687,7 @@
               "status": "expected"
             }
           ],
-          "id": "c70c9bd6805f5b8305d5-72570a651798d1d9cfcd",
+          "id": "c70c9bd6805f5b8305d5-f8d0c84d3dc2bef5747b",
           "file": "Checkout_WithoutItem.spec.ts",
           "line": 10,
           "column": 7
@@ -709,14 +709,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
                   "status": "timedOut",
-                  "duration": 30693,
+                  "duration": 30768,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -731,34 +731,34 @@
                         "column": 25,
                         "line": 31
                       },
-                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//span[@class=\"active_option\"]')\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"active_option\" data-test=\"active-option\">Name (A to Z)</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    52 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:31\n\n\u001b[0m \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterIcon() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(\u001b[32m'//span[@class=\"active_option\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m     }\n \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterNameAsc() {\u001b[0m\n\u001b[2m    at ProductPage.clickFilterIcon (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:31:25)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\Homepage_Filter.spec.ts:16:23\u001b[22m"
+                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//span[@class=\"active_option\"]')\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"active_option\" data-test=\"active-option\">Name (A to Z)</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    53 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:31\n\n\u001b[0m \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterIcon() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(\u001b[32m'//span[@class=\"active_option\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m     }\n \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterNameAsc() {\u001b[0m\n\u001b[2m    at ProductPage.clickFilterIcon (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:31:25)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\Homepage_Filter.spec.ts:16:23\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:34.399Z",
+                  "startTime": "2026-01-29T23:18:40.864Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\\test-failed-1.png"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-standard-user\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\\video.webm"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-standard-user\\video.webm"
                     },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\\error-context.md"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-standard-user\\error-context.md"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-standard-user-Google-Chrome\\trace.zip"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-standard-user\\trace.zip"
                     }
                   ]
                 }
@@ -766,7 +766,7 @@
               "status": "unexpected"
             }
           ],
-          "id": "f74f398deafe4c1624ed-c57b59374891082c8e7a",
+          "id": "f74f398deafe4c1624ed-ab273bea50130ff55a10",
           "file": "Homepage_Filter.spec.ts",
           "line": 9,
           "column": 7
@@ -780,14 +780,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 4,
-                  "parallelIndex": 0,
+                  "parallelIndex": 1,
                   "status": "timedOut",
-                  "duration": 30775,
+                  "duration": 30739,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -802,34 +802,34 @@
                         "column": 25,
                         "line": 31
                       },
-                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//span[@class=\"active_option\"]')\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"active_option\" data-test=\"active-option\">Name (A to Z)</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:31\n\n\u001b[0m \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterIcon() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(\u001b[32m'//span[@class=\"active_option\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m     }\n \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterNameAsc() {\u001b[0m\n\u001b[2m    at ProductPage.clickFilterIcon (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:31:25)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\Homepage_Filter.spec.ts:16:23\u001b[22m"
+                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//span[@class=\"active_option\"]')\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"active_option\" data-test=\"active-option\">Name (A to Z)</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    53 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:31\n\n\u001b[0m \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterIcon() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(\u001b[32m'//span[@class=\"active_option\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m     }\n \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterNameAsc() {\u001b[0m\n\u001b[2m    at ProductPage.clickFilterIcon (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:31:25)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\Homepage_Filter.spec.ts:16:23\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:03:07.842Z",
+                  "startTime": "2026-01-29T23:19:14.826Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\\test-failed-1.png"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-problem-user\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\\video.webm"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-problem-user\\video.webm"
                     },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\\error-context.md"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-problem-user\\error-context.md"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-problem-user-Google-Chrome\\trace.zip"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-problem-user\\trace.zip"
                     }
                   ]
                 }
@@ -837,7 +837,7 @@
               "status": "unexpected"
             }
           ],
-          "id": "f74f398deafe4c1624ed-b0995bdb96e1ff0692d6",
+          "id": "f74f398deafe4c1624ed-65075284e87779d5db01",
           "file": "Homepage_Filter.spec.ts",
           "line": 9,
           "column": 7
@@ -851,14 +851,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 9,
-                  "parallelIndex": 0,
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
                   "status": "timedOut",
-                  "duration": 30548,
+                  "duration": 30670,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -873,34 +873,34 @@
                         "column": 25,
                         "line": 31
                       },
-                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//span[@class=\"active_option\"]')\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"active_option\" data-test=\"active-option\">Name (A to Z)</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:31\n\n\u001b[0m \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterIcon() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(\u001b[32m'//span[@class=\"active_option\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m     }\n \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterNameAsc() {\u001b[0m\n\u001b[2m    at ProductPage.clickFilterIcon (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:31:25)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\Homepage_Filter.spec.ts:16:23\u001b[22m"
+                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//span[@class=\"active_option\"]')\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"active_option\" data-test=\"active-option\">Name (A to Z)</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    53 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <select class=\"product_sort_container\" data-test=\"product-sort-container\">…</select> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProductPage.ts:31\n\n\u001b[0m \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterIcon() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(\u001b[32m'//span[@class=\"active_option\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m     }\n \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[36masync\u001b[39m clickFilterNameAsc() {\u001b[0m\n\u001b[2m    at ProductPage.clickFilterIcon (C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\pages\\ProductPage.ts:31:25)\u001b[22m\n\u001b[2m    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\Homepage_Filter.spec.ts:16:23\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:03:41.657Z",
+                  "startTime": "2026-01-29T23:19:48.807Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\\test-failed-1.png"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-visual-user\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\\video.webm"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-visual-user\\video.webm"
                     },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\\error-context.md"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-visual-user\\error-context.md"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-visual-user-Google-Chrome\\trace.zip"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\Homepage_Filter-Add-item-to-cart-for-user-visual-user\\trace.zip"
                     }
                   ]
                 }
@@ -908,7 +908,7 @@
               "status": "unexpected"
             }
           ],
-          "id": "f74f398deafe4c1624ed-4dddf257c6211fa5f64c",
+          "id": "f74f398deafe4c1624ed-949031b587863e1951ab",
           "file": "Homepage_Filter.spec.ts",
           "line": 9,
           "column": 7
@@ -930,19 +930,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2498,
+                  "duration": 1937,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:36.974Z",
+                  "startTime": "2026-01-29T23:18:45.074Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -950,7 +950,7 @@
               "status": "expected"
             }
           ],
-          "id": "42af536f2c838a173cb6-6f8d83d9be23745b629e",
+          "id": "42af536f2c838a173cb6-06b5eb4171e378720856",
           "file": "Login.spec.ts",
           "line": 9,
           "column": 7
@@ -964,19 +964,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1312,
+                  "duration": 1912,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:39.504Z",
+                  "startTime": "2026-01-29T23:18:47.041Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -984,7 +984,7 @@
               "status": "expected"
             }
           ],
-          "id": "42af536f2c838a173cb6-736c44d3f53b71abe49a",
+          "id": "42af536f2c838a173cb6-1b9d260dc8d6b00d38e2",
           "file": "Login.spec.ts",
           "line": 9,
           "column": 7
@@ -998,19 +998,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1530,
+                  "duration": 1842,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:40.851Z",
+                  "startTime": "2026-01-29T23:18:48.984Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1018,7 +1018,7 @@
               "status": "expected"
             }
           ],
-          "id": "42af536f2c838a173cb6-81b25f633c1fffef18f4",
+          "id": "42af536f2c838a173cb6-e544f118f1fd438aa249",
           "file": "Login.spec.ts",
           "line": 9,
           "column": 7
@@ -1032,19 +1032,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2399,
+                  "duration": 1933,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:42.421Z",
+                  "startTime": "2026-01-29T23:18:50.849Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1052,7 +1052,7 @@
               "status": "expected"
             }
           ],
-          "id": "42af536f2c838a173cb6-510612aebd103d56a41a",
+          "id": "42af536f2c838a173cb6-edc51b17f905d7fb5eff",
           "file": "Login.spec.ts",
           "line": 9,
           "column": 7
@@ -1074,19 +1074,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2379,
+                  "duration": 2929,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:44.876Z",
+                  "startTime": "2026-01-29T23:18:52.829Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1094,7 +1094,7 @@
               "status": "expected"
             }
           ],
-          "id": "b77ce45c7a9cb2289bd9-0e1c7727a747e3dffb9e",
+          "id": "b77ce45c7a9cb2289bd9-94511e65acd7bd2fd5e0",
           "file": "Logout.spec.ts",
           "line": 9,
           "column": 7
@@ -1108,19 +1108,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2120,
+                  "duration": 2224,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:47.285Z",
+                  "startTime": "2026-01-29T23:18:55.784Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1128,7 +1128,7 @@
               "status": "expected"
             }
           ],
-          "id": "b77ce45c7a9cb2289bd9-59b0e82714fa050e43af",
+          "id": "b77ce45c7a9cb2289bd9-b7fbf7b551338f6a9423",
           "file": "Logout.spec.ts",
           "line": 9,
           "column": 7
@@ -1142,14 +1142,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 995,
+                  "duration": 1992,
                   "errors": [],
                   "stdout": [
                     {
@@ -1158,7 +1158,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:49.430Z",
+                  "startTime": "2026-01-29T23:18:58.034Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1166,7 +1166,7 @@
               "status": "expected"
             }
           ],
-          "id": "b77ce45c7a9cb2289bd9-e80355071a27b4eb1b2d",
+          "id": "b77ce45c7a9cb2289bd9-56f6fadc853976671a63",
           "file": "Logout.spec.ts",
           "line": 9,
           "column": 7
@@ -1180,19 +1180,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2853,
+                  "duration": 3017,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:50.449Z",
+                  "startTime": "2026-01-29T23:19:00.065Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1200,7 +1200,7 @@
               "status": "expected"
             }
           ],
-          "id": "b77ce45c7a9cb2289bd9-8b672de4e60e536a0b85",
+          "id": "b77ce45c7a9cb2289bd9-799b021037037eef0ff5",
           "file": "Logout.spec.ts",
           "line": 9,
           "column": 7
@@ -1222,19 +1222,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1280,
+                  "duration": 2061,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:53.344Z",
+                  "startTime": "2026-01-29T23:19:03.133Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1242,7 +1242,7 @@
               "status": "expected"
             }
           ],
-          "id": "d739fa23960b43d7c91b-ab6832d34f404520c918",
+          "id": "d739fa23960b43d7c91b-a48ace468476bfe961a8",
           "file": "RemoveItem_DescriptionPage.spec.ts",
           "line": 9,
           "column": 7
@@ -1256,14 +1256,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "timedOut",
-                  "duration": 33147,
+                  "duration": 33038,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -1284,28 +1284,28 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:02:54.650Z",
+                  "startTime": "2026-01-29T23:19:05.221Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\\test-failed-1.png"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\\video.webm"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack\\video.webm"
                     },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\\error-context.md"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack\\error-context.md"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack-Google-Chrome\\trace.zip"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem_DescriptionPage-78dba-r-title-Sauce-Labs-Backpack\\trace.zip"
                     }
                   ]
                 }
@@ -1313,7 +1313,7 @@
               "status": "unexpected"
             }
           ],
-          "id": "d739fa23960b43d7c91b-40d6e4d529c6c98ae3d7",
+          "id": "d739fa23960b43d7c91b-3e9fd69d235140b95f8c",
           "file": "RemoveItem_DescriptionPage.spec.ts",
           "line": 9,
           "column": 7
@@ -1327,19 +1327,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 7,
-                  "parallelIndex": 1,
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2488,
+                  "duration": 2265,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:03:29.979Z",
+                  "startTime": "2026-01-29T23:19:40.798Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1347,7 +1347,7 @@
               "status": "expected"
             }
           ],
-          "id": "d739fa23960b43d7c91b-350a91cf60e189c271e6",
+          "id": "d739fa23960b43d7c91b-10d76a0a46491d68ac04",
           "file": "RemoveItem_DescriptionPage.spec.ts",
           "line": 9,
           "column": 7
@@ -1369,19 +1369,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 5,
-                  "parallelIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2114,
+                  "duration": 2162,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:03:20.472Z",
+                  "startTime": "2026-01-29T23:19:43.261Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1389,7 +1389,7 @@
               "status": "expected"
             }
           ],
-          "id": "148e1f29d45555b4c6b6-7bf283f1689ef218090a",
+          "id": "148e1f29d45555b4c6b6-2e37a850d0c766724810",
           "file": "RemoveItem.spec.ts",
           "line": 9,
           "column": 7
@@ -1403,14 +1403,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
                   "workerIndex": 5,
-                  "parallelIndex": 3,
+                  "parallelIndex": 0,
                   "status": "failed",
-                  "duration": 7993,
+                  "duration": 7813,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('//span[@class=\"shopping_cart_badge\"]')\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//span[@class=\"shopping_cart_badge\"]')\u001b[22m\n\u001b[2m    9 × locator resolved to 1 element\u001b[22m\n\u001b[2m      - unexpected value \"1\"\u001b[22m\n",
                     "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('//span[@class=\"shopping_cart_badge\"]')\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//span[@class=\"shopping_cart_badge\"]')\u001b[22m\n\u001b[2m    9 × locator resolved to 1 element\u001b[22m\n\u001b[2m      - unexpected value \"1\"\u001b[22m\n\n    at C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\tests\\RemoveItem.spec.ts:21:29",
@@ -1434,28 +1434,28 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:03:22.613Z",
+                  "startTime": "2026-01-29T23:19:45.462Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\\test-failed-1.png"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\\video.webm"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack\\video.webm"
                     },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\\error-context.md"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack\\error-context.md"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack-Google-Chrome\\trace.zip"
+                      "path": "C:\\Users\\user\\Documents\\Carro Script\\saf\\saucedemo-playwright\\test-results\\RemoveItem-Remove-item-fro-09675----item-sauce-labs-backpack\\trace.zip"
                     }
                   ],
                   "errorLocation": {
@@ -1468,7 +1468,7 @@
               "status": "unexpected"
             }
           ],
-          "id": "148e1f29d45555b4c6b6-732f763a2cfe1a491ae7",
+          "id": "148e1f29d45555b4c6b6-eba9fbeda49f8651199b",
           "file": "RemoveItem.spec.ts",
           "line": 9,
           "column": 7
@@ -1482,19 +1482,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "",
+              "projectName": "",
               "results": [
                 {
-                  "workerIndex": 8,
-                  "parallelIndex": 1,
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1772,
+                  "duration": 2287,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-03T10:03:37.698Z",
+                  "startTime": "2026-01-29T23:19:55.743Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1502,7 +1502,7 @@
               "status": "expected"
             }
           ],
-          "id": "148e1f29d45555b4c6b6-9d68feeff01778ecfe91",
+          "id": "148e1f29d45555b4c6b6-15d7a665e475cdbd3299",
           "file": "RemoveItem.spec.ts",
           "line": 9,
           "column": 7
@@ -1512,8 +1512,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-03T10:02:21.594Z",
-    "duration": 111733.00499999999,
+    "startTime": "2026-01-29T23:17:28.506Z",
+    "duration": 171950.196,
     "expected": 25,
     "skipped": 0,
     "unexpected": 7,

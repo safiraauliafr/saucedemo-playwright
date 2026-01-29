@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
@@ -22,11 +22,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Install Playwright bundled browsers (Chromium)
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run Playwright tests (CI)
-        run: npm run test:ci
+      - name: Run Playwright tests
+        run: npx playwright test
+        env:
+          CI: true
 
       - name: Upload Playwright HTML report
         if: always()

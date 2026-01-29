@@ -1,4 +1,4 @@
-import { Page } from '@playwright/test';
+import { Page, Locator  } from '@playwright/test';
 
 export abstract class BasePage {
     protected page: Page;
@@ -14,5 +14,17 @@ export abstract class BasePage {
 
     async navigateTo(url: string) {
     await this.page.goto(url);
+  }
+
+  async click(locator: Locator) {
+    await locator.click();
+  }
+
+  async type(locator: Locator, text: string) {
+    await locator.fill(text);
+  }
+
+  async waitForVisible(locator: Locator) {
+    await locator.waitFor({ state: 'visible' });
   }
 }
